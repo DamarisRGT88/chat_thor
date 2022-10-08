@@ -1,0 +1,42 @@
+.header {
+  height: 10vh;
+  background-color: #FFC54D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  color: #F94C66;
+}
+
+.main {
+  height: 75vh;
+  padding: 30px;
+  background-color: #53BF9D;
+  color: #BD4291;
+  overflow: scroll;
+}
+
+li.propietario {
+  color: #FFE4C0
+}
+
+.footer {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 30px;
+  background-color: #FFC54D;
+  ;
+}
+
+.footer .control {
+  width: 33%;
+}
+
+.footer .control:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
